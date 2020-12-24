@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: beige;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  box-shadow: 0 0 10px lightgray;
+  padding: 5em;
+  text-align: center;
+}
+
+h2 {
+  font-weight: 100;
+  padding-bottom: 12px;
+}
+
+button {
+  padding: 15px;
+  margin-bottom: 12px;
+  background: transparent;
+  border: gray 1px solid;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all ease 0.3s;
+}
+button:focus {
+  outline: 0;
+}
+
+button:hover {
+  background-color: bisque;
+}
+
+.joke_display {
+  padding: 12px;
+  display: none;
+}
+
+.no-joke {
+  padding: 12px;
+  display: none;
+}
+
+img {
+  margin-top: 14px;
+  width: 400px;
+}
